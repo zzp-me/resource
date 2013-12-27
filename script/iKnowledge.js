@@ -3,6 +3,27 @@ var _gaq = [
     ['_trackPageview']
 ];
 
+var _bd_share_config = {
+    "common": {
+        "bdSnsKey": {},
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": "",
+        "bdStyle": "0",
+        "bdSize": "16"
+    },
+    "share": {},
+    "image": {
+        "viewList": [
+            "tsina", "weixin", "qzone",
+            "tqq", "t163", "renren"
+        ],
+        "viewText": "分享到：",
+        "viewSize": "16"
+    }
+};
+
 var doSearch = function(e) {
     e = window.event? event: e;
     if (e.keyCode == 13) {
